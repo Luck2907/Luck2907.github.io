@@ -1,0 +1,222 @@
+all.min.css
+
+body{
+    margin: 0px;
+}
+
+#arriba{
+    height: 40px;
+    background-color: black;
+}
+
+#cabecera{
+    height: 145px;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    width: 15%;
+    height: 140px;
+}
+
+#logo img{
+    height: 135px;
+}
+
+#menu{
+    width: 85%;
+    height: 140px;
+}
+
+#menu>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 160%;
+    padding-top: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+#menu a{
+    margin: 0px;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+#men a{
+    font-family: "Poetsen One", sans-serif;
+    color: purple;
+}
+
+#jue a{
+    font-family: "Poetsen One", sans-serif;
+}
+
+#menu a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    transition-property: color, background-color;
+    transition-duration: 300ms, 500ms;
+}
+
+#contenido{
+    padding: 0px 80px;
+    height: 800px;
+    background-color: rgb(218, 215, 215);
+    border: 0.1px solid white;
+}
+
+.mitad{
+    height: 46%;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.cuadro{
+    display: flex;
+    width: 50%;
+    margin: 0px 10px;
+    display: flex;
+    background-color: white;
+}
+
+.ima{
+    position: relative;
+    width: 50%;
+    height: 100%
+}
+
+.ima img{
+    display: block;
+    margin: auto;
+    
+}
+
+.imaho{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.imaho:hover{
+    opacity: 1;
+}
+
+.ima img{
+    width: 100%;
+    height: 99%;
+}
+
+
+.text{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 3px;
+}
+
+.text img{
+    width: 60%;
+    height: 40%;
+}
+
+.text p{
+    font-family: "Nunito", sans-serif;
+    font-size: 105%;
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color: red;
+    border-radius: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.text a:hover{
+    color: white;
+    background-color: black;
+    transition-property: color, background-color;
+    transition-duration: 300ms, 500ms;
+}
+
+#menu2{
+    background-color: rgb(218, 215, 215);
+    padding: 0px 50px;
+    border-top: 2px solid white;
+    border-bottom: 3px solid white;
+}
+
+#menu2>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 125%;
+}
+
+#menu2 a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu2 a:hover{
+    color: red;
+}
+
+#pie{
+    display: flex;
+    height: 140px;
+    background-color: rgb(218, 215, 215);
+}
+
+#part1{
+    padding-top: 30px;
+    padding-left: 80px;
+    height: 77%;
+    width: 50%;
+}
+
+#part1 a{
+    margin: 0px 5px;
+    color: black;
+    font-size: 200%;
+}
+
+#part1 p{
+    font-size: 110%;
+    font-family: "Poppins", sans-serif;
+}
+
+#part2{
+    padding-right: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#part2 img{
+    height: 60%;
+    height: 60%;
+}

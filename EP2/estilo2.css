@@ -1,0 +1,227 @@
+all.min.css
+
+body{
+    margin: 0px;
+}
+
+#arriba{
+    height: 40px;
+    background-color: black;
+}
+
+#cabecera{
+    height: 145px;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    width: 15%;
+    height: 140px;
+}
+
+#logo img{
+    height: 135px;
+}
+
+#menu{
+    width: 85%;
+    height: 140px;
+}
+
+#menu>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 160%;
+    padding-top: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+#menu a{
+    margin: 0px;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+#men a{
+    font-family: "Poetsen One", sans-serif;
+    color: purple;
+}
+
+#jue a{
+    font-family: "Poetsen One", sans-serif;
+}
+
+#menu a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    transition-property: color, background-color;
+    transition-duration: 300ms, 500ms;
+}
+
+#cuerpo{
+    height: 1050px;
+}
+
+#contarriba{
+    margin-top: 10px;
+    border-top: 0.1px solid white;
+    border-bottom: 1px solid black;
+    height: 9%;
+    background-color: rgba(209, 207, 207, 0.747);
+    padding-left: 200px;
+}
+
+#contarriba p{
+    font-family: "Raleway", sans-serif;
+    font-size: 125%;
+}
+
+#contenido1{
+    display: flex;
+    align-items: center;
+    height: 878px;
+}
+
+#barra{
+    background-color: rgb(238, 236, 236, 0.842);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 94%;
+    width: 20%;
+    border: 1px solid greenyellow;
+    margin: 0px 30px;
+    margin-left: 100px;
+}
+
+#barra h2{
+    font-family: "Oswald", sans-serif;
+}
+
+#barra p{
+    font-family: "Raleway", sans-serif;
+    font-size: 115%;
+}
+
+
+#relleno{
+    background-color: rgba(238, 236, 236, 0.842);
+    margin: 0px 50px;
+    height: 94%;
+    width: 70%;
+    border: 1px solid greenyellow;
+}
+
+#rellear{
+    padding-left: 100px;
+    height: 15%;
+}
+
+#rellear h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 215%;
+}
+
+hr{
+    width: 85%;
+    border: 1px solid black;
+}
+
+#cuadrojuegos{
+    height: 79%;
+}
+
+.cuad1{
+    display: flex;
+    width: 100%;
+    height: 33%;
+}
+
+.imju{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 60px;
+}
+
+.imju img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.imju h2{
+    margin-left: 20px;
+    font-size: 180%;
+}
+
+#menu2{
+    background-color: rgb(218, 215, 215);
+    padding: 0px 50px;
+    border-top: 1px solid black;
+    border-bottom: 3px solid white;
+}
+
+#menu2>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 125%;
+}
+
+#menu2 a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu2 a:hover{
+    color: red;
+}
+
+#pie{
+    display: flex;
+    height: 140px;
+    background-color: rgb(218, 215, 215);
+}
+
+#part1{
+    padding-top: 30px;
+    padding-left: 80px;
+    height: 77%;
+    width: 50%;
+}
+
+#part1 a{
+    margin: 0px 5px;
+    color: black;
+    font-size: 200%;
+}
+
+#part1 p{
+    font-size: 110%;
+    font-family: "Poppins", sans-serif;
+}
+
+#part2{
+    padding-right: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#part2 img{
+    height: 60%;
+    height: 60%;
+}
