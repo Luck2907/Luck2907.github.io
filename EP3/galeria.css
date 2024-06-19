@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 20;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a h1{
+    font-size: 500%;
+    text-align: center;
+    color: black;
+    font-family: "Kanit", sans-serif;
+}
+
+header a h1:hover{
+    color: gray;
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
+#ul1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 30px;
+    list-style-type: none;
+    font-size: 150%;
+}
+
+
+#ul1 a{
+    text-decoration: none;
+    color: rgb(73, 42, 42);
+    padding: 10px;
+}
+
+#ul1 a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    transition-property: color, background-color;
+    transition-duration: 300ms, 500ms;
+}
+
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure{
+    padding: 20px;
+    text-align: center;
+}
+
+figure img{
+    height: 300px;
+    width: 240px;
+    max-width: 400px;
+    max-height: 450px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+figure a{
+    opacity: 0.8;
+}
+
+figure a:hover{
+    opacity: 3;
+}
+
+figure a img:hover{
+    box-shadow: 10px 5px 3px lightslategray;
+}
+
+figure figcaption{
+    font-size: 160%;
+    font-family: "Kanit", sans-serif;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    margin: 15px;
+    font-size: 210%;
+    padding: 18px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul a:hover{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14.5px;
+    background-color: white;
+    border-radius: 30px;
+    transition-property: color, background-color;
+    transition-duration: 100ms, 300ms;
+}
